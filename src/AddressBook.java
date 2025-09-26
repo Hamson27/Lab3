@@ -22,5 +22,6 @@ public class AddressBook {
         addressBook.removeBuddy(buddy);
         BuddyInfo buddy2 = new BuddyInfo("John Doe", "123 Street", "255");
         addressBook.addBuddy(buddy2);
+        System.out.println("Name: " + buddy2.getName());
     }
 }
