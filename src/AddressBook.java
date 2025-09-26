@@ -20,5 +20,7 @@ public class AddressBook {
         AddressBook addressBook = new AddressBook();
         addressBook.addBuddy(buddy);
         addressBook.removeBuddy(buddy);
+        BuddyInfo buddy2 = new BuddyInfo("John Doe", "123 Street", "255");
+        addressBook.addBuddy(buddy2);
     }
 }
