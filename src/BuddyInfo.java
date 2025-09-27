@@ -16,6 +16,11 @@ public class BuddyInfo {
     public String getName() {
         return name;
     }
+
+    public String getAddress() {
+        return address;
+    }
+
     public static void main(String[] args) {
         BuddyInfo bud = new BuddyInfo("Homer", "123 Street", "123456789");
         System.out.println("Hello " + bud.getName());
